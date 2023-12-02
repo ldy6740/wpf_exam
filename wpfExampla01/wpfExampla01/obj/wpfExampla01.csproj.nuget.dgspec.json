@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\example Files\\wpfExampla01\\wpfExampla01\\wpfExampla01.csproj": {}
+    "E:\\example Files\\wpf_exam\\wpfExampla01\\wpfExampla01\\wpfExampla01.csproj": {}
   },
   "projects": {
-    "C:\\example Files\\wpfExampla01\\wpfExampla01\\wpfExampla01.csproj": {
+    "E:\\example Files\\wpf_exam\\wpfExampla01\\wpfExampla01\\wpfExampla01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\example Files\\wpfExampla01\\wpfExampla01\\wpfExampla01.csproj",
+        "projectUniqueName": "E:\\example Files\\wpf_exam\\wpfExampla01\\wpfExampla01\\wpfExampla01.csproj",
         "projectName": "wpfExampla01",
-        "projectPath": "C:\\example Files\\wpfExampla01\\wpfExampla01\\wpfExampla01.csproj",
+        "projectPath": "E:\\example Files\\wpf_exam\\wpfExampla01\\wpfExampla01\\wpfExampla01.csproj",
         "packagesPath": "C:\\Users\\ldy67\\.nuget\\packages\\",
-        "outputPath": "C:\\example Files\\wpfExampla01\\wpfExampla01\\obj\\",
+        "outputPath": "E:\\example Files\\wpf_exam\\wpfExampla01\\wpfExampla01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ldy67\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:wpfExampla01"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.DataContext>
+        <local:AppViewModel/>
+    </Window.DataContext>
     <DockPanel>
         <!-- Tools -->
         <Grid DockPanel.Dock="Top" Height="40" Background="{StaticResource BLUE GREY}">
@@ -56,7 +59,7 @@
 
         <!-- Content -->
         <Grid DockPanel.Dock="Bottom">
-            
+            <ContentControl Content="{Binding CurrentView}"/>
         </Grid>
     </DockPanel>
 </Window>

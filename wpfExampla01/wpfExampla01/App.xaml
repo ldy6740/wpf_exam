@@ -2,9 +2,15 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:wpfExampla01"
+             xmlns:vm="clr-namespace:wpfExampla01.ViewModels"
+             xmlns:v="clr-namespace:wpfExampla01.Views"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        
+
+        <DataTemplate DataType="{x:Type vm:BookViewModel}">
+            <v:BookView/>
+        </DataTemplate>
+
         <SolidColorBrush x:Key="FUSION RED" Color="#fc5c65" />
         <SolidColorBrush x:Key="DESIRE" Color="#eb3b5a" />
 
