@@ -1,0 +1,57 @@
+﻿<Application x:Class="wpfExampla01.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:wpfExampla01"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        
+        <SolidColorBrush x:Key="FUSION RED" Color="#fc5c65" />
+        <SolidColorBrush x:Key="DESIRE" Color="#eb3b5a" />
+
+        <SolidColorBrush x:Key="ORANGE HIBISCUS" Color="#fd9644" />
+        <SolidColorBrush x:Key="BENUKON BRONZE" Color="#fa8231" />
+
+        <SolidColorBrush x:Key="FLIRTATIOUS" Color="#fed330" />
+        <SolidColorBrush x:Key="NYC TAXI" Color="#f7b731" />
+
+        <SolidColorBrush x:Key="REPLE GREEN" Color="#26de81" />
+        <SolidColorBrush x:Key="ALGAL FUEL" Color="#20bf6b" />
+
+        <SolidColorBrush x:Key="MAXIMUM BLUE GREEN" Color="#2bcbba" />
+        <SolidColorBrush x:Key="TURQUOLSE TOPAZ" Color="#0fb9b1" />
+
+        <SolidColorBrush x:Key="HIGH BLUE" Color="#45aaf2" />
+        <SolidColorBrush x:Key="BOYZONE" Color="#2d98da" />
+
+        <SolidColorBrush x:Key="C64 NTSC" Color="#4b7bec" />
+        <SolidColorBrush x:Key="ROYAL BLUE" Color="#3867d6" />
+
+        <SolidColorBrush x:Key="LIGHTER PURPLE" Color="#a55eea" />
+        <SolidColorBrush x:Key="GLOOMY PURPLE" Color="#8854d0" />
+
+        <SolidColorBrush x:Key="TWINKLE BLUE" Color="#d1d8e0" />
+        <SolidColorBrush x:Key="INNUENDO" Color="#a5b1c2" />
+
+        <SolidColorBrush x:Key="BLUE GREY" Color="#778ca3" />
+        <SolidColorBrush x:Key="BLUE HORIZON" Color="#4b6584" />
+        
+        
+        
+        <!-- Controls-->
+        <Style x:Key="MenuTabButton" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource BLUE GREY}" />
+            <Setter Property="Foreground" Value="{StaticResource INNUENDO}" />
+            <Setter Property="BorderBrush" Value="{StaticResource BLUE HORIZON}" />
+            <Setter Property="BorderThickness" Value="0,0,1,0" />
+            <Setter Property="FontSize" Value="16" />
+        </Style>
+
+        <Style x:Key="MenuIconButton" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource BLUE GREY}" />
+            <Setter Property="Foreground" Value="{StaticResource MAXIMUM BLUE GREEN}" />
+            <Setter Property="Padding" Value="5" />
+            <Setter Property="BorderThickness" Value="0" />
+        </Style>
+   
+    </Application.Resources>
+</Application>
