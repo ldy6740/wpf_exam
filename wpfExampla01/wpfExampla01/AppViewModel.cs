@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using wpfExampla01.Service;
 using wpfExampla01.Utilty;
 using wpfExampla01.ViewModels;
 
@@ -26,7 +27,9 @@ namespace wpfExampla01
 
 		public AppViewModel()
 		{
-			BookVM = new BookViewModel();
+			var dataService = new MockDataService();
+
+			BookVM = new BookViewModel(dataService);
 			CurrentView = BookVM;
 		}
 	}

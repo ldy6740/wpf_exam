@@ -25,11 +25,11 @@
             </Grid.ColumnDefinitions>
 
             <Grid Grid.Column="0">
-                <Button Style="{StaticResource MenuTabButton}" Content="Favorite"/>
+                <Button Style="{StaticResource MenuTabButton}" Content="Favorite" Command="{Binding BookVM.LoadFavoritesCommand}"/>
             </Grid>
 
             <Grid Grid.Column="1">
-                <Button Style="{StaticResource MenuTabButton}" Content="Contacts"/>
+                <Button Style="{StaticResource MenuTabButton}" Content="Contacts" Command="{Binding BookVM.LoadContactsCommand}"/>
             </Grid>
             
             <!-- Tool Buttons -->
