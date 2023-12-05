@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 namespace wpfExampla01.Utilty
 {
     public class ObservableObject : INotifyPropertyChanged
-    {
+	{
 
-        public event PropertyChangedEventHandler PropertyChanged;
-        protected virtual void OnPropertyChanged(string propertyName)
+		public event PropertyChangedEventHandler? PropertyChanged; // 프로퍼티
+		protected virtual void OnPropertyChanged(string propertyName)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
