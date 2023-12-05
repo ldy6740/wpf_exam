@@ -9,6 +9,7 @@
     <Window.DataContext>
         <local:AppViewModel/>
     </Window.DataContext>
+
     <DockPanel>
         <!-- Tools -->
         <Grid DockPanel.Dock="Top" Height="40" Background="{StaticResource BLUE GREY}">
@@ -59,7 +60,7 @@
 
         <!-- Content -->
         <Grid DockPanel.Dock="Bottom">
-            <ContentControl Content="{Binding CurrentView}"/>
+            <ContentControl Content="{ Binding CurrentView }"/>
         </Grid>
     </DockPanel>
 </Window>

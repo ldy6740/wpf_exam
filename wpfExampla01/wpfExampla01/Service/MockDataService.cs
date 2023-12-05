@@ -7,7 +7,7 @@ using wpfExampla01.Models;
 
 namespace wpfExampla01.Service
 {
-	public class MockDataService
+	public class MockDataService :IContactDataService
 	{
 		private IEnumerable<Contact> _contacts;
 		public MockDataService()

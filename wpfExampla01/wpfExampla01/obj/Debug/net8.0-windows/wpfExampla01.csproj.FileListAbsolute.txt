@@ -56,3 +56,41 @@ E:\example Files\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\ref
 E:\example Files\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\wpfExampla01.pdb
 E:\example Files\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\wpfExampla01.genruntimeconfig.cache
 E:\example Files\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\ref\wpfExampla01.dll
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\bin\Debug\net8.0-windows\Resources\addIcon.png
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\bin\Debug\net8.0-windows\Resources\checkedStar.png
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\bin\Debug\net8.0-windows\Resources\createIcon.png
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\bin\Debug\net8.0-windows\Resources\defaultContact.png
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\bin\Debug\net8.0-windows\Resources\deleteIcon.png
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\bin\Debug\net8.0-windows\Resources\hoverStar.png
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\bin\Debug\net8.0-windows\Resources\Image1.bmp
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\bin\Debug\net8.0-windows\Resources\saveIcon.png
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\bin\Debug\net8.0-windows\Resources\uncheckedStar.png
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\bin\Debug\net8.0-windows\wpfExampla01.exe
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\bin\Debug\net8.0-windows\wpfExampla01.deps.json
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\bin\Debug\net8.0-windows\wpfExampla01.runtimeconfig.json
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\bin\Debug\net8.0-windows\wpfExampla01.dll
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\bin\Debug\net8.0-windows\wpfExampla01.pdb
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\Views\BookView.g.cs
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\Views\ContactsItemView.g.cs
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\wpfExampla01_MarkupCompile.cache
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\wpfExampla01_MarkupCompile.lref
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\App.baml
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\Views\BookView.baml
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\Views\ContactsItemView.baml
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\wpfExampla01.g.resources
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\wpfExampla01.Properties.Resources.resources
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\wpfExampla01.csproj.GenerateResource.cache
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\wpfExampla01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\wpfExampla01.AssemblyInfoInputs.cache
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\wpfExampla01.AssemblyInfo.cs
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\wpfExampla01.csproj.CoreCompileInputs.cache
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\wpfExampla01.sourcelink.json
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\wpfExampla01.dll
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\refint\wpfExampla01.dll
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\wpfExampla01.pdb
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\wpfExampla01.genruntimeconfig.cache
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExampla01\wpfExampla01\obj\Debug\net8.0-windows\ref\wpfExampla01.dll

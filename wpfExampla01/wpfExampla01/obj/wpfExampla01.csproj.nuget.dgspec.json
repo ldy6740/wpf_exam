@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\example Files\\wpf_exam\\wpfExampla01\\wpfExampla01\\wpfExampla01.csproj": {}
+    "C:\\Users\\DySimplePc\\Desktop\\exampleDir\\wpf_exam\\wpfExampla01\\wpfExampla01\\wpfExampla01.csproj": {}
   },
   "projects": {
-    "E:\\example Files\\wpf_exam\\wpfExampla01\\wpfExampla01\\wpfExampla01.csproj": {
+    "C:\\Users\\DySimplePc\\Desktop\\exampleDir\\wpf_exam\\wpfExampla01\\wpfExampla01\\wpfExampla01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\example Files\\wpf_exam\\wpfExampla01\\wpfExampla01\\wpfExampla01.csproj",
+        "projectUniqueName": "C:\\Users\\DySimplePc\\Desktop\\exampleDir\\wpf_exam\\wpfExampla01\\wpfExampla01\\wpfExampla01.csproj",
         "projectName": "wpfExampla01",
-        "projectPath": "E:\\example Files\\wpf_exam\\wpfExampla01\\wpfExampla01\\wpfExampla01.csproj",
-        "packagesPath": "C:\\Users\\ldy67\\.nuget\\packages\\",
-        "outputPath": "E:\\example Files\\wpf_exam\\wpfExampla01\\wpfExampla01\\obj\\",
+        "projectPath": "C:\\Users\\DySimplePc\\Desktop\\exampleDir\\wpf_exam\\wpfExampla01\\wpfExampla01\\wpfExampla01.csproj",
+        "packagesPath": "C:\\Users\\DySimplePc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DySimplePc\\Desktop\\exampleDir\\wpf_exam\\wpfExampla01\\wpfExampla01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ldy67\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DySimplePc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

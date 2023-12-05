@@ -37,7 +37,7 @@ namespace wpfExampla01.ViewModels
 
 		public BookViewModel(MockDataService dataService)
 		{
-			this.dataService = dataService;
+			dataService = dataService;
 		}
 
 		private void LoadContacts()
