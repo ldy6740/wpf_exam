@@ -24,26 +24,26 @@ namespace wpfExampla01.ViewModels
 		public ICommand LoadFavoritesCommand { get; private set; }
 		public ICommand LoadContactsCommand { get; private set; }
 
-		public BookViewModel(IContactDataService service)
+		public BookViewModel()
 		{
 			ContactsVM = new ContactsViewModel();
-
-			_service = service;
+/*
+			_service = service;*/
 
 			LoadFavoritesCommand = new RelayCommand(LoadFavorites);
 			LoadContactsCommand = new RelayCommand(LoadContacts);
 
 		}
-
+/*
 		public BookViewModel(MockDataService dataService)
 		{
 			dataService = dataService;
-		}
+		}*/
 
 		private void LoadContacts()
 		{
-			
-			ContactsVM.LoadContacts(_service.GetContacts());
+			MockDataService service = new MockDataService();
+			ContactsVM.LoadContacts(service.GetContacts());
 		}
 
 		private void LoadFavorites()

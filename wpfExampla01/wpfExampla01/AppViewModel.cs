@@ -29,7 +29,7 @@ namespace wpfExampla01
 		{
 			var dataService = new MockDataService();
 
-			BookVM = new BookViewModel(dataService);
+			BookVM = new BookViewModel();
 			CurrentView = BookVM;
 		}
 	}

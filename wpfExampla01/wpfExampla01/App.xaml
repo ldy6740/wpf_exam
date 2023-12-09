@@ -11,7 +11,7 @@
             <v:BookView/>
         </DataTemplate>
 
-        <BitmapImage x:Key="DefaultContactImage" UriSource="/Resources/defaultContact.png"/>
+        <BitmapImage x:Key="DefaultContactImage" UriSource="/Resources/defaultContact.png" />
 
         <SolidColorBrush x:Key="FUSION RED" Color="#fc5c65" />
         <SolidColorBrush x:Key="DESIRE" Color="#eb3b5a" />
