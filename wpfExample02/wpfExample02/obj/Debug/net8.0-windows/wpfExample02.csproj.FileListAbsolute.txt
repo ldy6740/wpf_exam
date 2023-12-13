@@ -22,3 +22,27 @@ C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExample02\wpfExample02\obj\De
 C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\wpfExample02.pdb
 C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\wpfExample02.genruntimeconfig.cache
 C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\ref\wpfExample02.dll
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\bin\Debug\net8.0-windows\wpfExample02.exe
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\bin\Debug\net8.0-windows\wpfExample02.deps.json
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\bin\Debug\net8.0-windows\wpfExample02.runtimeconfig.json
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\bin\Debug\net8.0-windows\wpfExample02.dll
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\bin\Debug\net8.0-windows\wpfExample02.pdb
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\bin\Debug\net8.0-windows\CommunityToolkit.Mvvm.dll
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\wpfExample02.csproj.AssemblyReference.cache
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\App.g.cs
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\wpfExample02_MarkupCompile.cache
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\wpfExample02_MarkupCompile.lref
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\Views\MainWindow.baml
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\wpfExample02.g.resources
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\wpfExample02.GeneratedMSBuildEditorConfig.editorconfig
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\wpfExample02.AssemblyInfoInputs.cache
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\wpfExample02.AssemblyInfo.cs
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\wpfExample02.csproj.CoreCompileInputs.cache
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\wpfExample02.sourcelink.json
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\wpfExample02.csproj.CopyComplete
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\wpfExample02.dll
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\refint\wpfExample02.dll
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\wpfExample02.pdb
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\wpfExample02.genruntimeconfig.cache
+E:\example Files\wpf_exam\wpfExample02\wpfExample02\obj\Debug\net8.0-windows\ref\wpfExample02.dll

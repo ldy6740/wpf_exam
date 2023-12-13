@@ -15,7 +15,40 @@
             Grid.Row="0"
             DisplayMemberPath="Name"
             ItemsSource="{Binding People}"
-            SelectedItem="{Binding SelectedPerson, Mode=TwoWay}"/>
+            SelectedItem="{Binding SelectedPerson, Mode=TwoWay}">
+
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns>
+                        <GridViewColumn DisplayMemberBinding="{Binding Id}" Header="Id"/>
+                        <GridViewColumn Header="Name">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBox Text="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Gender">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox
+                                        Width="60"
+                                        ItemsSource="{Binding Path=DataContext.GenderTypes, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}"
+                                        SelectedValue="{Binding Gender, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                                        <ComboBox.ItemTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="{Binding}"/>
+                                            </DataTemplate>
+                                        </ComboBox.ItemTemplate>
+                                    </ComboBox>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView.Columns>
+                </GridView>
+            </ListView.View>
+            
+        </ListView>
         <StackPanel Grid.Row="1" Orientation="Horizontal">
             <TextBlock Margin="5" Text="{Binding SelectedPerson.Id}"/>
             <TextBlock Margin="5" Text="{Binding SelectedPerson.Name}"/>

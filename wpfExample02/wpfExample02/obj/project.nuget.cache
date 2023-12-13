@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vMdjrPsYtz7eoo/9pbhj8ejDKpo9d95F9dIgx3sgvvBO9LOw6pM7YrgMWzG8DAzV3YVP9B8F6rEoavdKrLGZpg==",
+  "dgSpecHash": "NIwIdgIbehSvdQqiRe9ExhgXaQmfLji/YCrNssV9suPg+6qO65ZNVvhb0ltNp7V3s7oDm73PNMz6qSda87d7XA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DySimplePc\\Desktop\\exampleDir\\wpf_exam\\wpfExample02\\wpfExample02\\wpfExample02.csproj",
+  "projectFilePath": "E:\\example Files\\wpf_exam\\wpfExample02\\wpfExample02\\wpfExample02.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\DySimplePc\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512"
+    "C:\\Users\\ldy67\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512"
   ],
   "logs": []
 }
