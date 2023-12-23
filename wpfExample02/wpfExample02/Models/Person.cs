@@ -10,7 +10,7 @@ namespace wpfExample02.Models
     public class Person : ObservableObject
     {
         public int _id;
-        public int Id
+        public int Id                               // Property
         {
             get { return _id; }
             set
@@ -20,8 +20,8 @@ namespace wpfExample02.Models
         }
 
         private string? _name;
-        public string? Name
-        {
+        public string? Name                         // Property
+		{
             get { return _name; }
             set
             {
@@ -30,8 +30,8 @@ namespace wpfExample02.Models
         }
 
         private bool _gender;
-        public bool Gender
-        {
+        public bool Gender                          // Property
+		{
             get { return _gender; }
             set
             {

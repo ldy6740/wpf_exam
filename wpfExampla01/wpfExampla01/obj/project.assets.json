@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ldy67\\.nuget\\packages\\": {}
+    "C:\\Users\\dyThinkBook\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\example Files\\wpf_exam\\wpfExampla01\\wpfExampla01\\wpfExampla01.csproj",
+      "projectUniqueName": "C:\\examFolder\\wpf_exam\\wpfExampla01\\wpfExampla01\\wpfExampla01.csproj",
       "projectName": "wpfExampla01",
-      "projectPath": "E:\\example Files\\wpf_exam\\wpfExampla01\\wpfExampla01\\wpfExampla01.csproj",
-      "packagesPath": "C:\\Users\\ldy67\\.nuget\\packages\\",
-      "outputPath": "E:\\example Files\\wpf_exam\\wpfExampla01\\wpfExampla01\\obj\\",
+      "projectPath": "C:\\examFolder\\wpf_exam\\wpfExampla01\\wpfExampla01\\wpfExampla01.csproj",
+      "packagesPath": "C:\\Users\\dyThinkBook\\.nuget\\packages\\",
+      "outputPath": "C:\\examFolder\\wpf_exam\\wpfExampla01\\wpfExampla01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ldy67\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dyThinkBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

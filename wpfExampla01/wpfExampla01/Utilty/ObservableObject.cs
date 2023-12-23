@@ -14,7 +14,7 @@ namespace wpfExampla01.Utilty
 		public event PropertyChangedEventHandler PropertyChanged;
 		protected virtual void OnPropertyChanged(string propertyName)
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
         protected virtual bool OnPropertyChanged<T>(ref T backingfield, T value, [CallerMemberName] string propertyName = "")

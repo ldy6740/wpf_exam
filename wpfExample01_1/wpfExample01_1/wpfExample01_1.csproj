@@ -1,0 +1,109 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+	<UseWindowsForms>true</UseWindowsForms>
+	<!--<ApplicationIcon>Images\Delivery.ico</ApplicationIcon>-->
+	<!--<applicationmanifest>app.manifest</applicationmanifest>
+	<applicationhighdpimode>permonitorv2</applicationhighdpimode>
+	<assemblyversion>1.2.2.0</assemblyversion>
+	<fileversion>1.2.2.0</fileversion>
+	<version>1.2.2</version>-->
+  </PropertyGroup>
+
+    <!--<ItemGroup>
+        <PackageReference Include="Caliburn.Micro" Version="4.0.212" />
+        <PackageReference Include="FontAwesome5" Version="2.1.11" />
+        <PackageReference Include="Hardcodet.NotifyIcon.Wpf" Version="1.1.0" />
+    </ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\wpfExample01_1\wpfExample01_1.csproj">
+			<ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+		</ProjectReference>
+	</ItemGroup>-->
+
+  <ItemGroup>
+    <None Remove="addIcon.png" />
+    <None Remove="app.manifest" />
+    <None Remove="Resources\addIcon.png" />
+    <None Remove="Resources\checkedStar.png" />
+    <None Remove="Resources\createIcon.png" />
+    <None Remove="Resources\defaultContact.png" />
+    <None Remove="Resources\deleteIcon.png" />
+    <None Remove="Resources\hoverStar.png" />
+    <None Remove="Resources\saveIcon.png" />
+    <None Remove="Resources\uncheckedStar.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\createIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\addIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\checkedStar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\defaultContact.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\deleteIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\hoverStar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\saveIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\uncheckedStar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+	
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+	<!--<ItemGroup>
+		<None Remove="Resources\addIcon.png" />
+		<Resource Include="Resources\addIcon.png" />
+
+		<None Remove="Resources\checkedStar.png" />
+		<Resource Include="Resources\checkedStar.png" />
+
+		<None Remove="Resources\createIcon.png" />
+		<Resource Include="Resources\createIcon.png" />
+
+		<None Remove="Resources\defaultContact.png" />
+		<Resource Include="Resources\defaultContact.png" />
+
+		<None Remove="Resources\deleteIcon.png" />
+		<Resource Include="Resources\deleteIcon.png" />
+
+		<None Remove="Resources\hoverStar.png" />
+		<Resource Include="Resources\hoverStar.png" />
+
+		<None Remove="Resources\saveIcon.png" />
+		<Resource Include="Resources\saveIcon.png" />
+
+		<None Remove="Resources\uncheckedStar.png" />
+		<Resource Include="Resources\uncheckedStar.png" />
+		
+	</ItemGroup>-->
+</Project>
+
+

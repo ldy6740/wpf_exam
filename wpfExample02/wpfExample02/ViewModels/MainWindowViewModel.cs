@@ -11,25 +11,25 @@ namespace wpfExample02.ViewModels
     public class MainWindowViewModel : ViewModelBase
     {
         private IList<bool>? _genderTypes = new List<bool>() { true, false };
-        public IList<bool>? GenderTypes
-        {
+        public IList<bool>? GenderTypes                                     // Property
+		{
             get => _genderTypes;
         }
         private IList<Person>? _people;
-        public IList<Person>? People
+        public IList<Person>? People                                        // Property
         {
             get => _people;
             set => SetProperty(ref _people, value);
         }
 
         private Person? _selectedPerson;
-        public Person? SelectedPerson
-        {
+        public Person? SelectedPerson                                       // Property
+		{
             get => _selectedPerson;
             set => SetProperty(ref _selectedPerson, value);
         }
 
-        public MainWindowViewModel()
+        public MainWindowViewModel()                                        // Construtor
         {
             People = new List<Person>
             {
