@@ -18,7 +18,7 @@
                TargetNullValue={StaticResource DefaultContactImage}}"/>
 
         <StackPanel Grid.Column="1" Margin="5" VerticalAlignment="center">
-            <Label FontSize="18" Content="{Binding Name, FallbackValue=N/A}"/>
+            <Label FontSize="18" Content="{Binding FirstName}"/>
         </StackPanel>
     </Grid>
 </UserControl>
