@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\dy\Desktop\_Project\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Debug\net8.0-windows\
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Debug\net8.0-windows\
 wpfExample01_1
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\dy\Desktop\_Project\wpf_exam\wpfExample01_1\wpfExample01_1\App.xaml
-3-671259075
+C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExample01_1\wpfExample01_1\App.xaml
+41231595318
 
-16-1076999094
+171946402017
 2071543232827
-MainWindow.xaml;Views\BookView.xaml;Views\ContactItemView.xaml;
+MainWindow.xaml;Views\BookView.xaml;Views\ContactItemView.xaml;Views\DetailsView.xaml;
 
 False
 

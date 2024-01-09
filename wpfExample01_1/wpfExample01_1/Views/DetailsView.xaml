@@ -52,5 +52,62 @@
                 </Button>
             </StackPanel>   
         </Grid>
+        
+        <!--Phone Details -->
+        <StackPanel Grid.Row="1" Margin="5">
+            <StackPanel>
+                <Border Style="{StaticResource DetailBorder}">
+                    <Label FontWeight="Bold" Foreground="#fff5f7f9" Content="Phone"/>
+                </Border>
+
+                <StackPanel>
+                    <!-- Home Numbers -->
+                    <Label Style="{StaticResource DetailLabel}" Content="Home"/>
+                    <Label Style="{StaticResource ContentLabel}" Content="{Binding SelectedContact.PhoneNumbers[0], FallbackValue=NULL}"/>
+                    
+                    <!-- Cell Numbers -->
+                    <Label Style="{StaticResource DetailLabel}" Content="Cell"/>
+                    <Label Style="{StaticResource ContentLabel}" Content="{Binding SelectedContact.PhoneNumbers[1], FallbackValue=NULL}"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+
+        <!--Phone Details -->
+        <StackPanel Grid.Row="2" Margin="5">
+            <StackPanel>
+                <Border Style="{StaticResource DetailBorder}">
+                    <Label FontWeight="Bold" Foreground="#fff5f7f9" Content="Phone"/>
+                </Border>
+
+                <StackPanel>
+                    <!-- Home Numbers -->
+                    <Label Style="{StaticResource DetailLabel}" Content="Home"/>
+                    <Label Style="{StaticResource ContentLabel}" Content="{Binding SelectedContact.PhoneNumbers[0], FallbackValue=NULL}"/>
+
+                    <!-- Cell Numbers -->
+                    <Label Style="{StaticResource DetailLabel}" Content="Cell"/>
+                    <Label Style="{StaticResource ContentLabel}" Content="{Binding SelectedContact.PhoneNumbers[1], FallbackValue=NULL}"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Location Details -->
+        <StackPanel Grid.Row="3" Margin="5">
+            <StackPanel>
+                <Border Style="{StaticResource DetailBorder}">
+                    <Label FontWeight="Bold" Foreground="#fff5f7f9" Content="Locations"/>
+                </Border>
+
+                <StackPanel>
+                    <!-- Home Numbers -->
+                    <Label Style="{StaticResource DetailLabel}" Content="Home"/>
+                    <Label Style="{StaticResource ContentLabel}" Content="{Binding SelectedContact.PhoneNumbers[0], FallbackValue=NULL}"/>
+
+                    <!-- Cell Numbers -->
+                    <Label Style="{StaticResource DetailLabel}" Content="Cell"/>
+                    <Label Style="{StaticResource ContentLabel}" Content="{Binding SelectedContact.PhoneNumbers[1], FallbackValue=NULL}"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </UserControl>
