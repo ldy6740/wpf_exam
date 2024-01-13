@@ -12,6 +12,7 @@ namespace wpfExample01_1.ViewModels
 	public class BookViewModel : ObservableObject
 	{
 		private IContactDataService _service;
+		private IDialogService _dialogService;
 
 		private ContactsViewModel _contactsVM;
 		public ContactsViewModel ContactsVM
@@ -23,9 +24,9 @@ namespace wpfExample01_1.ViewModels
 		public ICommand LoadFavoritesCommand { get; private set; } // 읽기 전용
 		public ICommand LoadContactsCommand { get; private set; } // 읽기 전용
 
-		public BookViewModel(IContactDataService service)
+		public BookViewModel(IContactDataService service, IDialogService dialogService)
 		{
-			ContactsVM = new ContactsViewModel();
+			ContactsVM = new ContactsViewModel(service, dialogService);
 
 			_service = service;
 

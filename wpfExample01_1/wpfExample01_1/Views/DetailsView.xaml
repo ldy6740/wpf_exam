@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:wpfExample01_1.Views"
              mc:Ignorable="d" 
              d:DesignHeight="1200" d:DesignWidth="450">
-    <Grid Visibility="{Binding SelectedContact, Converter={StaticResource SelectedContactconverter}}">
+    <Grid Visibility="{Binding SelectedContact, Converter={StaticResource SelectedContactConverter}}">
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
@@ -42,7 +42,9 @@
                 </Grid>
             </StackPanel>
             <StackPanel Grid.Column="1" VerticalAlignment="Bottom" Orientation="Horizontal">
-                <Button Style="{StaticResource MenuIconButton}" Background="{StaticResource MaximumBlueGreen}" Width="90" Height="40" Margin="5">
+                <Button Style="{StaticResource MenuIconButton}" Background="{StaticResource MaximumBlueGreen}"
+                        Command="{Binding SaveCommand}"
+                        Width="90" Height="40" Margin="5">
                     <Button.Content>
                         <StackPanel Orientation="Horizontal">
                             <Image Source="/Resources/saveIcon.png"/>

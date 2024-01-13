@@ -9,7 +9,7 @@ using System.Windows.Data;
 
 namespace wpfExample01_1.Helpers
 {
-	public class BoolToVisibilityConverter : IValueConverter
+	public class BoolToVisibiltyConverter : IValueConverter
 	{
 		public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
 		{

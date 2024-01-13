@@ -48,7 +48,7 @@ namespace wpfExample01_1.ViewModels
 
 		private IContactDataService _dataService;
 
-		public ContactsViewModel(IContactDataService dataService)
+		public ContactsViewModel(IContactDataService dataService, IDialogService dialogService)
 		{
 			_dataService = dataService;
 			_contacts = dataService.GetContacts();

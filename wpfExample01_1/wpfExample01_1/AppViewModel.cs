@@ -29,7 +29,9 @@ namespace wpfExample01_1
 		{
 			MockDataService dataService = new MockDataService();
 
-			BookVM = new BookViewModel(dataService);
+			var dialogService = new WindowDialogService();
+
+			BookVM = new BookViewModel(dataService, dialogService);
 			CurrentView = BookVM;
 		}
 	}

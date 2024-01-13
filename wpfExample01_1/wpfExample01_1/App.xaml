@@ -14,7 +14,7 @@
 
         <BitmapImage x:Key="DefaultContactImage"  UriSource="/Resources/defaultContact.png"/>
 
-        <helper:BoolToVisisilityConverter x:Key="IsEditConverter"/>
+        <helper:BoolToVisibiltyConverter x:Key="IsEditConverter"/>
         <helper:NullToVisibilityConverter x:Key="SelectedContactConverter"/>
 
         <!-- Brushes -->

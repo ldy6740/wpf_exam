@@ -35,7 +35,7 @@ namespace wpfExample01_1.Utilty
 		public RelayCommand(Action execute)
 			: base(_ => execute()) { }
 
-		public RelayCommand(Action execute, Func<bool> canExecute)
+		public RelayCommand(Action execute, Func<bool> canExecute)  // execute : 실행 이름, canExecute : 실행 가능여부
 			: base(_ => execute(), _ => canExecute()) { }
 	}
 }

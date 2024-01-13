@@ -8,24 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\dy\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\DySimplePc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dy\\Desktop\\_Project\\wpf_exam\\wpfExample01_1\\wpfExample01_1\\wpfExample01_1.csproj",
+      "projectUniqueName": "C:\\Users\\DySimplePc\\Desktop\\exampleDir\\wpf_exam\\wpfExample01_1\\wpfExample01_1\\wpfExample01_1.csproj",
       "projectName": "wpfExample01_1",
-      "projectPath": "C:\\Users\\dy\\Desktop\\_Project\\wpf_exam\\wpfExample01_1\\wpfExample01_1\\wpfExample01_1.csproj",
-      "packagesPath": "C:\\Users\\dy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dy\\Desktop\\_Project\\wpf_exam\\wpfExample01_1\\wpfExample01_1\\obj\\",
+      "projectPath": "C:\\Users\\DySimplePc\\Desktop\\exampleDir\\wpf_exam\\wpfExample01_1\\wpfExample01_1\\wpfExample01_1.csproj",
+      "packagesPath": "C:\\Users\\DySimplePc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DySimplePc\\Desktop\\exampleDir\\wpf_exam\\wpfExample01_1\\wpfExample01_1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\dy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\DySimplePc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -23,7 +23,7 @@
             </Grid.ColumnDefinitions>
             
             <Grid Grid.Column="0">
-                <Button Style="{StaticResource MenuTabButton}" Content="Favorites"/>
+                <Button Style="{StaticResource MenuTabButton}" Content="Favorites" Command="{Binding BookVM.LoadFavoritesCommand}"/>
             </Grid>
 
             <Grid Grid.Column="1">
