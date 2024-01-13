@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("wpfExample01_1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c62d792b3cc8e3cdee282fd00b9a634dc714b65a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("wpfExample01_1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("wpfExample01_1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

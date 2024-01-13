@@ -87,3 +87,5 @@ C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExample01_1\wpfExample01_1\ob
 C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Debug\net8.0-windows\wpfExample01_1.sourcelink.json
 C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Debug\net8.0-windows\wpfExample01_1.genruntimeconfig.cache
 C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Debug\net8.0-windows\ref\wpfExample01_1.dll
+C:\Users\dy\Desktop\_Project\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Debug\net8.0-windows\Views\DetailsView.g.cs
+C:\Users\dy\Desktop\_Project\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Debug\net8.0-windows\Views\DetailsView.baml

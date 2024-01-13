@@ -29,3 +29,14 @@ C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExample01_1\wpfExample01_1\ob
 C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Release\net8.0-windows\wpfExample01_1.pdb
 C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Release\net8.0-windows\wpfExample01_1.genruntimeconfig.cache
 C:\Users\DySimplePc\Desktop\exampleDir\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Release\net8.0-windows\ref\wpfExample01_1.dll
+C:\Users\dy\Desktop\_Project\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Release\net8.0-windows\MainWindow.g.cs
+C:\Users\dy\Desktop\_Project\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Release\net8.0-windows\Views\BookView.g.cs
+C:\Users\dy\Desktop\_Project\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Release\net8.0-windows\Views\ContactItemView.g.cs
+C:\Users\dy\Desktop\_Project\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Release\net8.0-windows\Views\DetailsView.g.cs
+C:\Users\dy\Desktop\_Project\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Release\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\dy\Desktop\_Project\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Release\net8.0-windows\wpfExample01_1_MarkupCompile.cache
+C:\Users\dy\Desktop\_Project\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Release\net8.0-windows\wpfExample01_1_MarkupCompile.lref
+C:\Users\dy\Desktop\_Project\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Release\net8.0-windows\wpfExample01_1.dll
+C:\Users\dy\Desktop\_Project\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Release\net8.0-windows\refint\wpfExample01_1.dll
+C:\Users\dy\Desktop\_Project\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Release\net8.0-windows\wpfExample01_1.pdb
+C:\Users\dy\Desktop\_Project\wpf_exam\wpfExample01_1\wpfExample01_1\obj\Release\net8.0-windows\App.g.cs

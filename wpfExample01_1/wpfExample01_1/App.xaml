@@ -4,6 +4,7 @@
              xmlns:local="clr-namespace:wpfExample01_1"
              xmlns:vm="clr-namespace:wpfExample01_1.ViewModels"
              xmlns:v="clr-namespace:wpfExample01_1.Views"
+             xmlns:helper="clr-namespace:wpfExample01_1.Helpers"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
 
@@ -12,6 +13,9 @@
         </DataTemplate>
 
         <BitmapImage x:Key="DefaultContactImage"  UriSource="/Resources/defaultContact.png"/>
+
+        <helper:BoolToVisisilityConverter x:Key="IsEditConverter"/>
+        <helper:NullToVisibilityConverter x:Key="SelectedContactConverter"/>
 
         <!-- Brushes -->
         <SolidColorBrush x:Key="BlueHorizon" Color="#4b6584" />
@@ -83,6 +87,68 @@
         <Style x:Key="DetailBorder" TargetType="Border">
             <Setter Property="CornerRadius" Value="3"/>
             <Setter Property="Background" Value="{StaticResource LightBlueGreyGradient}"/>
+        </Style>
+
+        <Style x:Key="EditBox" TargetType="{x:Type TextBoxBase}">
+            <Setter Property="SnapsToDevicePixels" Value="True"/>
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="KeyboardNavigation.TabNavigation" Value="None"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="MinWidth" Value="120"/>
+            <Setter Property="MinHeight" Value="20"/>
+            <Setter Property="AllowDrop" Value="True"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TextBoxBase}">
+                        <Border Name="Border" CornerRadius="3" Padding="2"
+                                Background="White"
+                                BorderBrush="{StaticResource BlueHorizon}"
+                                BorderThickness="1">
+
+                            <ScrollViewer Margin="0" x:Name="PART_ContentHost"/>
+                        </Border>
+                    
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter TargetName="Border" Property="Background" Value="#FFa5b1c2"/>
+                                <Setter TargetName="Border" Property="BorderBrush" Value="#FF69717C"/>
+                                <Setter Property="Foreground" Value="#FFd1d8e0"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="favoriteCheckbox" TargetType="{x:Type CheckBox}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type CheckBox}">
+                        
+                        <StackPanel Orientation="Horizontal">
+                            <Image x:Name="checkboxImage" Source="/Resources/uncheckedStar.png" Width="32"/>
+                            <ContentPresenter/>
+                        </StackPanel>
+                        <ControlTemplate.Triggers>
+                            
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter TargetName="checkboxImage" Property="Source" Value="/Resources/checkedStar.png"/>
+                            </Trigger>
+                            
+                            <MultiTrigger>
+                                <MultiTrigger.Conditions>
+                                    <Condition Property="IsMouseOver" Value="True"/>
+                                    <Condition Property="IsChecked" Value="False"/>
+                                </MultiTrigger.Conditions>
+
+                                <Setter TargetName="checkboxImage" Property="Source" Value="/Resources/hoverStar.png"/>
+                            </MultiTrigger>
+                            
+                        </ControlTemplate.Triggers>
+                        
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
         </Style>
 
 

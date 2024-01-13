@@ -54,7 +54,7 @@ namespace wpfExample01_1.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/wpfExample01_1;component/views/contactitemview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/wpfExample01_1;V1.0.0.0;component/views/contactitemview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\ContactItemView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
